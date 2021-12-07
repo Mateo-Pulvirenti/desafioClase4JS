@@ -60,6 +60,9 @@ function select() {
             alert(`total a pagar: $${howManyProducts * precioPapelillos}`);
             break;
 
+        case 6:
+            break;
+
         default: 
             alert("por favor ingrese un numero de la lista");
             select();
